@@ -4,19 +4,55 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="93c40910-0048-4f07-aa29-4819554b5224" name="Default Changelist" comment="" />
+    <list default="true" id="93c40910-0048-4f07-aa29-4819554b5224" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msb-dongbao-generator/msb-dongbao-generator.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msb-dongbao-generator/src/main/java/com/msb/msbdongbaogenerator/DongbaoGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msb-dongbao-generator/src/main/java/com/msb/msbdongbaogenerator/MsbDongbaoGeneratorApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msb-dongbao-mall-service/msb-dongbao-ums/src/main/java/com/msb/dongbao/ums/MsbDongbaoUmsApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msb-dongbao-mall-service/msb-dongbao-ums/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msb-dongbao-mall-service/msb-dongbao-ums/src/test/java/com/msb/dongbao/ums/mapper/UserMemberTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msb-dongbao-generator/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/msb-dongbao-generator/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-service/msb-dongbao-ums/msb-dongbao-ums.iml" beforeDir="false" afterPath="$PROJECT_DIR$/msb-dongbao-mall-service/msb-dongbao-ums/msb-dongbao-ums.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-service/msb-dongbao-ums/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/msb-dongbao-mall-service/msb-dongbao-ums/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/msb-dongbao-mall-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/msb-dongbao-mall-service/pom.xml" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/msb-dongbao-generator/src/main/java/com/msb/msbdongbaogenerator/DongbaoGenerator.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/msb-dongbao-mall-service/msb-dongbao-ums/src/test/java/com/msb/dongbao/ums/mapper/UserMemberTest.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/msb-dongbao-generator/pom.xml" root0="SKIP_INSPECTION" />
+  </component>
   <component name="ProjectId" id="265xgWizbQuPpEVJpAUL2ii3NMP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -25,7 +61,25 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.msb.dongbao.ums" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.UserMemberTest.testInsert">
+    <configuration name="DongbaoGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.msb.msbdongbaogenerator.DongbaoGenerator" />
+      <module name="msb-dongbao-generator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.msb.msbdongbaogenerator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -37,6 +91,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UserMemberTest.testInsert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="msb-dongbao-ums" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.msb.dongbao.ums.mapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.msb.dongbao.ums.mapper" />
+      <option name="MAIN_CLASS_NAME" value="com.msb.dongbao.ums.mapper.UserMemberTest" />
+      <option name="METHOD_NAME" value="testInsert" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.UserMemberTest.testInsert" />
+        <item itemvalue="Application.DongbaoGenerator" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -46,11 +122,25 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1646727378730</updated>
-      <workItem from="1646727380432" duration="3979000" />
+      <workItem from="1646727380432" duration="5230000" />
+      <workItem from="1646813747541" duration="6835000" />
+      <workItem from="1646890491431" duration="4234000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
