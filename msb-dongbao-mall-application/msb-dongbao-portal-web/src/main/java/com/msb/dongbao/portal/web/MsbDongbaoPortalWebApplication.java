@@ -24,8 +24,5 @@ public class MsbDongbaoPortalWebApplication {
         SpringApplication.run(MsbDongbaoPortalWebApplication.class,args);
     }
 
-    @Bean
-    public PasswordEncoder passwordEncoder() {
-        return new BCryptPasswordEncoder();
-    }
+
 }

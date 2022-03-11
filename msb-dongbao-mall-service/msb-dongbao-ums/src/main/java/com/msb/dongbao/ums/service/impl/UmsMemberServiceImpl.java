@@ -1,6 +1,7 @@
 package com.msb.dongbao.ums.service.impl;
 
 import com.msb.dongbao.ums.entity.UmsMember;
+import com.msb.dongbao.ums.entity.dto.UmsMemberLoginParamDTO;
 import com.msb.dongbao.ums.entity.dto.UmsMemberRegisterParamDTO;
 import com.msb.dongbao.ums.mapper.UmsMemberMapper;
 import com.msb.dongbao.ums.service.UmsMemberService;
@@ -34,5 +35,21 @@ public class UmsMemberServiceImpl implements UmsMemberService {
         umsMember.setPassword(encode);
         umsMemberMapper.insert(umsMember);
         return "success";
+    }
+
+    @Override
+    public String login(UmsMemberLoginParamDTO umsMemberLoginParamDTO) {
+        UmsMember umsMember = umsMemberMapper.selectByName(umsMemberLoginParamDTO.getUsername());
+        if (null != umsMember){
+            String passwordDb = umsMember.getPassword();
+            if (!passwordEncoder.matches(umsMemberLoginParamDTO.getPassword(),passwordDb)){
+                return "密码不正确";
+            }else {
+                System.out.println("登录成功");
+                return "token";
+            }
+        }else {
+            return "用户不存在";
+        }
     }
 }
