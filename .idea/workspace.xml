@@ -5,33 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="93c40910-0048-4f07-aa29-4819554b5224" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/msb-dongbao-mall-api/msb-dongbao-ums-api/msb-dongbao-ums-api.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/src/main/java/com/msb/dongbao/portal/web/MsbDongbaoPortalWebApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/src/main/java/com/msb/dongbao/portal/web/controller/UserMemberController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/msb-dongbao-mall-service/msb-dongbao-mall-service.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/msb-dongbao-mall-service/msb-dongbao-ums/src/main/java/com/msb/dongbao/ums/config/MyHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msb-dongbao-mall-api/msb-dongbao-ums-api/src/main/java/com/msb/dongbao/ums/entity/dto/UmsMemberRegisterParamDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/src/test/java/com/msb/dongbao/portal/web/md5/EncoderOrDecoderTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msb-dongbao-generator/target/classes/com/msb/msbdongbaogenerator/MsbDongbaoGeneratorApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/msb-dongbao-generator/target/classes/com/msb/msbdongbaogenerator/MsbDongbaoGeneratorApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-api/msb-dongbao-oms-api/msb-dongbao-oms-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/msb-dongbao-mall-api/msb-dongbao-oms-api/msb-dongbao-oms-api.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-api/msb-dongbao-ums-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/msb-dongbao-mall-api/msb-dongbao-ums-api/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/msb-dongbao-portal-web.iml" beforeDir="false" afterPath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/msb-dongbao-portal-web.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-common/msb-dongbao-common-base/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/msb-dongbao-mall-common/msb-dongbao-common-base/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-common/msb-dongbao-common-util/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/msb-dongbao-mall-common/msb-dongbao-common-util/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/msb-dongbao-mall-common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-service/msb-dongbao-cart/msb-dongbao-cart.iml" beforeDir="false" afterPath="$PROJECT_DIR$/msb-dongbao-mall-service/msb-dongbao-cart/msb-dongbao-cart.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-api/msb-dongbao-ums-api/src/main/java/com/msb/dongbao/ums/service/UmsMemberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/msb-dongbao-mall-api/msb-dongbao-ums-api/src/main/java/com/msb/dongbao/ums/service/UmsMemberService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/src/main/java/com/msb/dongbao/portal/web/controller/UserMemberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/src/main/java/com/msb/dongbao/portal/web/controller/UserMemberController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/target/classes/com/msb/dongbao/portal/web/controller/UserMemberController.class" beforeDir="false" afterPath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/target/classes/com/msb/dongbao/portal/web/controller/UserMemberController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-service/msb-dongbao-ums/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/msb-dongbao-mall-service/msb-dongbao-ums/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-service/msb-dongbao-ums/src/main/java/com/msb/dongbao/ums/entity/UmsMember.java" beforeDir="false" afterPath="$PROJECT_DIR$/msb-dongbao-mall-api/msb-dongbao-ums-api/src/main/java/com/msb/dongbao/ums/entity/UmsMember.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-service/msb-dongbao-ums/src/main/java/com/msb/dongbao/ums/service/UmsMemberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/msb-dongbao-mall-api/msb-dongbao-ums-api/src/main/java/com/msb/dongbao/ums/service/UmsMemberService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-service/msb-dongbao-ums/src/main/java/com/msb/dongbao/ums/service/impl/UmsMemberServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/msb-dongbao-mall-service/msb-dongbao-ums/src/main/java/com/msb/dongbao/ums/service/impl/UmsMemberServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-service/msb-dongbao-ums/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/msb-dongbao-mall-service/msb-dongbao-ums/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-service/msb-dongbao-ums/src/test/java/com/msb/dongbao/ums/mapper/UserMemberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/msb-dongbao-mall-service/msb-dongbao-ums/src/test/java/com/msb/dongbao/ums/mapper/UserMemberTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-service/msb-dongbao-ums/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/msb-dongbao-mall-service/msb-dongbao-ums/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-service/msb-dongbao-ums/target/classes/com/msb/dongbao/ums/entity/UmsMember.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-service/msb-dongbao-ums/target/classes/com/msb/dongbao/ums/service/UmsMemberService.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-service/msb-dongbao-ums/target/classes/com/msb/dongbao/ums/service/impl/UmsMemberServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/msb-dongbao-mall-service/msb-dongbao-ums/target/classes/com/msb/dongbao/ums/service/impl/UmsMemberServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-service/msb-dongbao-ums/target/test-classes/com/msb/dongbao/ums/mapper/UserMemberTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/msb-dongbao-mall-service/msb-dongbao-ums/target/test-classes/com/msb/dongbao/ums/mapper/UserMemberTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +33,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/msb-dongbao-mall-service/pom.xml" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/msb-dongbao-generator/src/main/java/com/msb/msbdongbaogenerator/DongbaoGenerator.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/msb-dongbao-mall-api/msb-dongbao-ums-api/pom.xml" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/msb-dongbao-mall-service/msb-dongbao-ums/pom.xml" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/msb-dongbao-mall-service/msb-dongbao-ums/src/test/java/com/msb/dongbao/ums/mapper/UserMemberTest.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/msb-dongbao-generator/pom.xml" root0="SKIP_INSPECTION" />
@@ -82,19 +65,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.MsbDongbaoPortalWebApplication">
-    <configuration name="DongbaoGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.msb.msbdongbaogenerator.DongbaoGenerator" />
-      <module name="msb-dongbao-generator" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.msb.msbdongbaogenerator.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -102,6 +72,38 @@
         </value>
       </option>
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EncoderOrDecoderTest.bcrypt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="msb-dongbao-portal-web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.msb.dongbao.portal.web.md5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.msb.dongbao.portal.web.md5" />
+      <option name="MAIN_CLASS_NAME" value="com.msb.dongbao.portal.web.md5.EncoderOrDecoderTest" />
+      <option name="METHOD_NAME" value="bcrypt" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EncoderOrDecoderTest.encodeAndDecode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="msb-dongbao-portal-web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.msb.dongbao.portal.web.md5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.msb.dongbao.portal.web.md5" />
+      <option name="MAIN_CLASS_NAME" value="com.msb.dongbao.portal.web.md5.EncoderOrDecoderTest" />
+      <option name="METHOD_NAME" value="encodeAndDecode" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -154,9 +156,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.MsbDongbaoPortalWebApplication" />
+        <item itemvalue="JUnit.EncoderOrDecoderTest.bcrypt" />
+        <item itemvalue="JUnit.EncoderOrDecoderTest.encodeAndDecode" />
         <item itemvalue="JUnit.UserMemberTest.testUpdate" />
         <item itemvalue="JUnit.UserMemberTest.testInsert" />
-        <item itemvalue="Application.DongbaoGenerator" />
       </list>
     </recent_temporary>
   </component>
@@ -170,7 +173,7 @@
       <updated>1646727378730</updated>
       <workItem from="1646727380432" duration="5230000" />
       <workItem from="1646813747541" duration="6835000" />
-      <workItem from="1646890491431" duration="22090000" />
+      <workItem from="1646890491431" duration="28321000" />
     </task>
     <task id="LOCAL-00001" summary="mybatis-plus代码生成器生成代码">
       <created>1646894976148</created>
@@ -186,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1646895101285</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="控制层和服务层，注意扫描包和扫描包的粒度">
+      <created>1646960352683</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1646960352684</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -206,6 +216,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="mybatis-plus代码生成器生成代码" />
-    <option name="LAST_COMMIT_MESSAGE" value="mybatis-plus代码生成器生成代码" />
+    <MESSAGE value="控制层和服务层，注意扫描包和扫描包的粒度" />
+    <option name="LAST_COMMIT_MESSAGE" value="控制层和服务层，注意扫描包和扫描包的粒度" />
   </component>
 </project>
