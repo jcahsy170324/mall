@@ -26,8 +26,8 @@ public class UserMemberController {
 
     @PostMapping("/register")
     public String register(@RequestBody UmsMemberRegisterParamDTO umsMemberRegisterParamDTO){
-        umsMemberService.register(umsMemberRegisterParamDTO);
-        return "register";
+        String register = umsMemberService.register(umsMemberRegisterParamDTO);
+        return register;
     }
 
     @PostMapping("/login")

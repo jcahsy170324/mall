@@ -5,19 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="93c40910-0048-4f07-aa29-4819554b5224" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/msb-dongbao-mall-api/msb-dongbao-ums-api/src/main/java/com/msb/dongbao/ums/entity/dto/UmsMemberLoginParamDTO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-api/msb-dongbao-ums-api/src/main/java/com/msb/dongbao/ums/service/UmsMemberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/msb-dongbao-mall-api/msb-dongbao-ums-api/src/main/java/com/msb/dongbao/ums/service/UmsMemberService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/src/main/java/com/msb/dongbao/portal/web/MsbDongbaoPortalWebApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/src/main/java/com/msb/dongbao/portal/web/MsbDongbaoPortalWebApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/src/main/java/com/msb/dongbao/portal/web/controller/UserMemberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/src/main/java/com/msb/dongbao/portal/web/controller/UserMemberController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/target/classes/com/msb/dongbao/portal/web/MsbDongbaoPortalWebApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/target/classes/com/msb/dongbao/portal/web/MsbDongbaoPortalWebApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/target/classes/com/msb/dongbao/portal/web/controller/UserMemberController.class" beforeDir="false" afterPath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/target/classes/com/msb/dongbao/portal/web/controller/UserMemberController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-service/msb-dongbao-ums/src/main/java/com/msb/dongbao/ums/mapper/UmsMemberMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/msb-dongbao-mall-service/msb-dongbao-ums/src/main/java/com/msb/dongbao/ums/mapper/UmsMemberMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-service/msb-dongbao-ums/src/main/java/com/msb/dongbao/ums/mapper/xml/UmsMemberMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/msb-dongbao-mall-service/msb-dongbao-ums/src/main/java/com/msb/dongbao/ums/mapper/xml/UmsMemberMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-service/msb-dongbao-ums/src/main/java/com/msb/dongbao/ums/service/impl/UmsMemberServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/msb-dongbao-mall-service/msb-dongbao-ums/src/main/java/com/msb/dongbao/ums/service/impl/UmsMemberServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-service/msb-dongbao-ums/target/classes/com/msb/dongbao/ums/mapper/UmsMemberMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/msb-dongbao-mall-service/msb-dongbao-ums/target/classes/com/msb/dongbao/ums/mapper/UmsMemberMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-service/msb-dongbao-ums/target/classes/com/msb/dongbao/ums/mapper/xml/UmsMemberMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/msb-dongbao-mall-service/msb-dongbao-ums/target/classes/com/msb/dongbao/ums/mapper/xml/UmsMemberMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-service/msb-dongbao-ums/target/classes/com/msb/dongbao/ums/service/impl/UmsMemberServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/msb-dongbao-mall-service/msb-dongbao-ums/target/classes/com/msb/dongbao/ums/service/impl/UmsMemberServiceImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -182,7 +172,7 @@
       <updated>1646727378730</updated>
       <workItem from="1646727380432" duration="5230000" />
       <workItem from="1646813747541" duration="6835000" />
-      <workItem from="1646890491431" duration="30684000" />
+      <workItem from="1646890491431" duration="31496000" />
     </task>
     <task id="LOCAL-00001" summary="mybatis-plus代码生成器生成代码">
       <created>1646894976148</created>
@@ -212,7 +202,14 @@
       <option name="project" value="LOCAL" />
       <updated>1646967912833</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="登录，校验密码">
+      <created>1646970035877</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1646970035877</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -234,17 +231,7 @@
     <MESSAGE value="mybatis-plus代码生成器生成代码" />
     <MESSAGE value="控制层和服务层，注意扫描包和扫描包的粒度" />
     <MESSAGE value="账号注册和密码脱敏" />
-    <option name="LAST_COMMIT_MESSAGE" value="账号注册和密码脱敏" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/msb-dongbao-mall-service/msb-dongbao-ums/src/main/java/com/msb/dongbao/ums/service/impl/UmsMemberServiceImpl.java</url>
-          <line>41</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="登录，校验密码" />
+    <option name="LAST_COMMIT_MESSAGE" value="登录，校验密码" />
   </component>
 </project>

@@ -12,6 +12,8 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
+import java.sql.SQLIntegrityConstraintViolationException;
+
 /**
  * <p>
  * 后台用户表 服务实现类
@@ -33,7 +35,11 @@ public class UmsMemberServiceImpl implements UmsMemberService {
         BeanUtils.copyProperties(umsMemberRegisterParamDTO,umsMember);
         String encode = passwordEncoder.encode(umsMemberRegisterParamDTO.getPassword());
         umsMember.setPassword(encode);
-        umsMemberMapper.insert(umsMember);
+        try {
+            umsMemberMapper.insert(umsMember);
+        }catch (Exception e){
+            return "用户名重复";
+        }
         return "success";
     }
 
