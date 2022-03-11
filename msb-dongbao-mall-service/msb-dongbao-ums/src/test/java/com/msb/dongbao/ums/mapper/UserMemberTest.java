@@ -21,16 +21,20 @@ public class UserMemberTest {
     @Test
     void testInsert(){
         UmsMember t = new UmsMember();
-        t.setUsername("jincheng");
+        t.setUsername("test");
         t.setStatus(0);
         t.setPassword("1");
         t.setNote("note");
         t.setNickName("nick");
         t.setEmail("email");
-        t.setGmtCreate(new Date());
-        t.setGmtUpdate(new Date());
-
         umsMemberMapper.insert(t);
+    }
 
+    @Test
+    void testUpdate(){
+        UmsMember t =new UmsMember();
+        t.setId(62L);
+        t.setUsername("JinCheng");
+        umsMemberMapper.updateById(t);
     }
 }

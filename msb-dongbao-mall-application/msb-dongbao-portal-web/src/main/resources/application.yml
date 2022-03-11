@@ -16,3 +16,4 @@ mybatis-plus:
       logic-not-delete-value: 0
   mapper-locations:
     - classpath*:/com/msb/dongbao/ums/mapper/xml/*.xml
+  type-aliases-package: com.msb.dongbao.ums.entity
