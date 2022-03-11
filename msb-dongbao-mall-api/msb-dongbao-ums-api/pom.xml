@@ -29,6 +29,7 @@
         <dependency>
             <groupId>com.msb</groupId>
             <artifactId>msb-dongbao-common-base</artifactId>
+            <version>1.0-SNAPSHOT</version>
         </dependency>
 
         <dependency>

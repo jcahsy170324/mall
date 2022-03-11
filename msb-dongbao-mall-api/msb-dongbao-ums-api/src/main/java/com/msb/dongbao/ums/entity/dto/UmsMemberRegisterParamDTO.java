@@ -3,6 +3,8 @@ package com.msb.dongbao.ums.entity.dto;
 import lombok.Data;
 import lombok.ToString;
 
+import javax.validation.constraints.NotEmpty;
+
 /**
  * @ClassName UmsMemberRegisterParamDTO
  * @Description TODO
@@ -13,6 +15,7 @@ import lombok.ToString;
 @Data
 @ToString
 public class UmsMemberRegisterParamDTO {
+    @NotEmpty(message = "用户名密码不为空")
     private String username;
     private String password;
     private String icon;

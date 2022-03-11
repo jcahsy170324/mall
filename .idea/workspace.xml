@@ -5,10 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="93c40910-0048-4f07-aa29-4819554b5224" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/src/main/java/com/msb/dongbao/portal/web/advice/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/src/main/java/com/msb/dongbao/portal/web/advice/ValidateHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msb-dongbao-mall-common/msb-dongbao-common-base/msb-dongbao-common-base.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msb-dongbao-mall-common/msb-dongbao-common-base/src/main/java/com/msb/dongbao/common/base/MsbDongbaoCommonBaseApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msb-dongbao-mall-common/msb-dongbao-common-base/src/main/java/com/msb/dongbao/common/base/enums/StateCodeEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msb-dongbao-mall-common/msb-dongbao-common-base/src/main/java/com/msb/dongbao/common/base/result/ResultWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msb-dongbao-mall-common/msb-dongbao-common-util/msb-dongbao-common-util.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-api/msb-dongbao-ums-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/msb-dongbao-mall-api/msb-dongbao-ums-api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-api/msb-dongbao-ums-api/src/main/java/com/msb/dongbao/ums/entity/dto/UmsMemberRegisterParamDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/msb-dongbao-mall-api/msb-dongbao-ums-api/src/main/java/com/msb/dongbao/ums/entity/dto/UmsMemberRegisterParamDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/src/main/java/com/msb/dongbao/portal/web/MsbDongbaoPortalWebApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/src/main/java/com/msb/dongbao/portal/web/MsbDongbaoPortalWebApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/src/main/java/com/msb/dongbao/portal/web/controller/UserMemberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/src/main/java/com/msb/dongbao/portal/web/controller/UserMemberController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-service/msb-dongbao-ums/src/main/java/com/msb/dongbao/ums/service/impl/UmsMemberServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/msb-dongbao-mall-service/msb-dongbao-ums/src/main/java/com/msb/dongbao/ums/service/impl/UmsMemberServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-service/msb-dongbao-ums/target/classes/com/msb/dongbao/ums/service/impl/UmsMemberServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/msb-dongbao-mall-service/msb-dongbao-ums/target/classes/com/msb/dongbao/ums/service/impl/UmsMemberServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/target/classes/com/msb/dongbao/portal/web/MsbDongbaoPortalWebApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/target/classes/com/msb/dongbao/portal/web/MsbDongbaoPortalWebApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/target/classes/com/msb/dongbao/portal/web/controller/UserMemberController.class" beforeDir="false" afterPath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/target/classes/com/msb/dongbao/portal/web/controller/UserMemberController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-common/msb-dongbao-common-base/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/msb-dongbao-mall-common/msb-dongbao-common-base/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/msb-dongbao-mall-common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-service/msb-dongbao-ums/src/main/java/com/msb/dongbao/ums/controller/UmsMemberController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-service/msb-dongbao-ums/target/classes/com/msb/dongbao/ums/controller/UmsMemberController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +34,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -29,7 +46,9 @@
     <setting file="file://$PROJECT_DIR$/msb-dongbao-mall-service/pom.xml" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/msb-dongbao-generator/src/main/java/com/msb/msbdongbaogenerator/DongbaoGenerator.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/msb-dongbao-mall-api/msb-dongbao-ums-api/pom.xml" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/msb-dongbao-mall-common/msb-dongbao-common-base/pom.xml" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/msb-dongbao-mall-service/msb-dongbao-ums/pom.xml" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/msb-dongbao-mall-common/pom.xml" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/msb-dongbao-mall-service/msb-dongbao-ums/src/test/java/com/msb/dongbao/ums/mapper/UserMemberTest.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/msb-dongbao-generator/pom.xml" root0="SKIP_INSPECTION" />
   </component>
@@ -51,8 +70,8 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.17" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="project.structure.side.proportion" value="0.39310345" />
+    <property name="settings.editor.selected.configurable" value="build.tools" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -139,6 +158,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MsbDongbaoCommonBaseApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="msb-dongbao-common-base" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.msb.dongbao.common.base.MsbDongbaoCommonBaseApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MsbDongbaoPortalWebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="msb-dongbao-portal-web" />
       <extension name="coverage">
@@ -172,7 +198,7 @@
       <updated>1646727378730</updated>
       <workItem from="1646727380432" duration="5230000" />
       <workItem from="1646813747541" duration="6835000" />
-      <workItem from="1646890491431" duration="31496000" />
+      <workItem from="1646890491431" duration="43544000" />
     </task>
     <task id="LOCAL-00001" summary="mybatis-plus代码生成器生成代码">
       <created>1646894976148</created>
@@ -209,7 +235,14 @@
       <option name="project" value="LOCAL" />
       <updated>1646970035877</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="登录，校验密码">
+      <created>1646974889694</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1646974889694</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
