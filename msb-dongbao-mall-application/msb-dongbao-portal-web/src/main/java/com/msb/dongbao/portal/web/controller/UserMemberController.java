@@ -1,6 +1,8 @@
 package com.msb.dongbao.portal.web.controller;
 
 import com.msb.dongbao.common.base.result.ResultWrapper;
+import com.msb.dongbao.common.util.JwtUtil;
+import com.msb.dongbao.ums.entity.UmsMember;
 import com.msb.dongbao.ums.entity.dto.UmsMemberLoginParamDTO;
 import com.msb.dongbao.ums.entity.dto.UmsMemberRegisterParamDTO;
 import com.msb.dongbao.ums.service.UmsMemberService;
@@ -29,14 +31,26 @@ public class UserMemberController {
 
     @PostMapping("/register")
     public ResultWrapper register(@RequestBody @Valid UmsMemberRegisterParamDTO umsMemberRegisterParamDTO){
-        String register = umsMemberService.register(umsMemberRegisterParamDTO);
-        return ResultWrapper.getSuccessBuilder().data(null).build();
+        ResultWrapper register = umsMemberService.register(umsMemberRegisterParamDTO);
+        return register;
     }
 
     @PostMapping("/login")
-    public String login(@RequestBody UmsMemberLoginParamDTO umsMemberLoginParamDTO) {
-        String login = umsMemberService.login(umsMemberLoginParamDTO);
+    public ResultWrapper login(@RequestBody UmsMemberLoginParamDTO umsMemberLoginParamDTO) {
+        ResultWrapper login = umsMemberService.login(umsMemberLoginParamDTO);
         return login;
+    }
+
+    @GetMapping("/verify")
+    public String verify(String token){
+        String s = JwtUtil.parseToken(token);
+        return s;
+    }
+
+    @PostMapping("/edit")
+    public ResultWrapper edit(@RequestBody UmsMember umsMember){
+        System.out.println("edit");
+        return umsMemberService.edit(umsMember);
     }
 
 }

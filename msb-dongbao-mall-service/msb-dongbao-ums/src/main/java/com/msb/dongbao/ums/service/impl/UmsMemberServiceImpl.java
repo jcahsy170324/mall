@@ -1,6 +1,10 @@
 package com.msb.dongbao.ums.service.impl;
 
+import com.msb.dongbao.common.base.enums.StateCodeEnum;
+import com.msb.dongbao.common.base.result.ResultWrapper;
+import com.msb.dongbao.common.util.JwtUtil;
 import com.msb.dongbao.ums.entity.UmsMember;
+import com.msb.dongbao.ums.entity.UserMemberLoginResponse;
 import com.msb.dongbao.ums.entity.dto.UmsMemberLoginParamDTO;
 import com.msb.dongbao.ums.entity.dto.UmsMemberRegisterParamDTO;
 import com.msb.dongbao.ums.mapper.UmsMemberMapper;
@@ -30,7 +34,7 @@ public class UmsMemberServiceImpl implements UmsMemberService {
     private PasswordEncoder passwordEncoder;
 
     @Override
-    public String register(UmsMemberRegisterParamDTO umsMemberRegisterParamDTO){
+    public ResultWrapper register(UmsMemberRegisterParamDTO umsMemberRegisterParamDTO){
         UmsMember umsMember = new UmsMember();
         BeanUtils.copyProperties(umsMemberRegisterParamDTO,umsMember);
         String encode = passwordEncoder.encode(umsMemberRegisterParamDTO.getPassword());
@@ -38,24 +42,36 @@ public class UmsMemberServiceImpl implements UmsMemberService {
         try {
             umsMemberMapper.insert(umsMember);
         }catch (Exception e){
-            return "用户名重复";
+            return ResultWrapper.getFailBuilder().msg("用户名重复").build();
         }
-        return "success";
+        return ResultWrapper.getSuccessBuilder().build();
     }
 
     @Override
-    public String login(UmsMemberLoginParamDTO umsMemberLoginParamDTO) {
+    public ResultWrapper login(UmsMemberLoginParamDTO umsMemberLoginParamDTO) {
         UmsMember umsMember = umsMemberMapper.selectByName(umsMemberLoginParamDTO.getUsername());
         if (null != umsMember){
             String passwordDb = umsMember.getPassword();
             if (!passwordEncoder.matches(umsMemberLoginParamDTO.getPassword(),passwordDb)){
-                return "密码不正确";
+                return ResultWrapper.getFailBuilder().code(StateCodeEnum.PASSWORD_ERROR.getCode())
+                        .msg(StateCodeEnum.PASSWORD_ERROR.getMsg()).build();
             }else {
-                System.out.println("登录成功");
-                return "token";
+                String token = JwtUtil.createToken(umsMember.getUsername());
+                UserMemberLoginResponse userMemberLoginResponse = new UserMemberLoginResponse();
+                userMemberLoginResponse.setToken(token);
+                umsMember.setPassword("");
+                userMemberLoginResponse.setUmsMember(umsMember);
+                return ResultWrapper.getSuccessBuilder().data(userMemberLoginResponse).build();
             }
         }else {
-            return "用户不存在";
+            return ResultWrapper.getFailBuilder().code(StateCodeEnum.USER_EMPTY.getCode())
+                    .msg(StateCodeEnum.USER_EMPTY.getMsg()).build();
         }
+    }
+
+    @Override
+    public ResultWrapper edit(UmsMember umsMember) {
+        umsMemberMapper.updateById(umsMember);
+        return ResultWrapper.getSuccessBuilder().data(umsMember).build();
     }
 }

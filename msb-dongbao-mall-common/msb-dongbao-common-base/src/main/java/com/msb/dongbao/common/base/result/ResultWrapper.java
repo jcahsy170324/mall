@@ -32,14 +32,19 @@ public class ResultWrapper<T> implements Serializable {
     }
 
     /**
-     * 返回成功的包装
+     * 返回请求成功的包装
      **/
     public static ResultWrapper.ResultWrapperBuilder getSuccessBuilder(){
         return ResultWrapper.builder().code(StateCodeEnum.SUCCESS.getCode()).msg(StateCodeEnum.SUCCESS.getMsg());
     }
 
+    /**
+     * 返回请求失败的包装
+     **/
     public static ResultWrapper.ResultWrapperBuilder getFailBuilder() {
         return ResultWrapper.builder().code(StateCodeEnum.ERROR.getCode()).msg(StateCodeEnum.ERROR.getMsg());
     }
+
+
 
 }
