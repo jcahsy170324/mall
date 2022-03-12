@@ -1,5 +1,6 @@
 package com.msb.dongbao.portal.web.interceptor;
 
+import com.msb.dongbao.common.base.TokenException;
 import com.msb.dongbao.common.base.annotations.TokenCheck;
 import com.msb.dongbao.common.util.JwtUtil;
 import org.apache.commons.lang3.StringUtils;
@@ -36,7 +37,7 @@ public class AuthInterceptor implements HandlerInterceptor {
                 try {
                     JwtUtil.parseToken(token);
                 }catch (Exception e){
-                    return false;
+                    throw new TokenException("token 异常");
                 }
                 return true;
             }

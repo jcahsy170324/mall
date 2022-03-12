@@ -24,7 +24,7 @@ public class JwtUtil {
      **/
     public static String createToken(String subject) {
         String token = Jwts.builder().setSubject(subject)
-                .setExpiration(new Date(System.currentTimeMillis() + 1000*10))
+                .setExpiration(new Date(System.currentTimeMillis() + 1000*60))
                 .signWith(SignatureAlgorithm.HS256, secret)
                 .compact();
         return token;

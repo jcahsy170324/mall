@@ -48,6 +48,13 @@
             <groupId>com.msb</groupId>
         </dependency>
 
+        <dependency>
+            <artifactId>msb-dongbao-common-base</artifactId>
+            <groupId>com.msb</groupId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+
+
 
 
     </dependencies>

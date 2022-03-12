@@ -72,6 +72,7 @@ public class UmsMemberServiceImpl implements UmsMemberService {
 
     @Override
     public ResultWrapper edit(UmsMember umsMember) {
+        System.out.println("edit");
         UmsMember umsMemberDb = umsMemberMapper.selectById(umsMember.getId());
         if (null != umsMemberDb){
             String passwordDb = umsMember.getPassword();
