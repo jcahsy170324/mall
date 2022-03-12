@@ -10,6 +10,7 @@ import com.msb.dongbao.ums.entity.dto.UmsMemberRegisterParamDTO;
 import com.msb.dongbao.ums.mapper.UmsMemberMapper;
 import com.msb.dongbao.ums.service.UmsMemberService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
@@ -71,6 +72,16 @@ public class UmsMemberServiceImpl implements UmsMemberService {
 
     @Override
     public ResultWrapper edit(UmsMember umsMember) {
+        UmsMember umsMemberDb = umsMemberMapper.selectById(umsMember.getId());
+        if (null != umsMemberDb){
+            String passwordDb = umsMember.getPassword();
+            if(!StringUtils.isBlank(umsMember.getPassword())){
+                if (!passwordEncoder.matches(umsMember.getPassword(),passwordDb)){
+                    String encode = passwordEncoder.encode(umsMember.getPassword());
+                    umsMember.setPassword(encode);
+                }
+            }
+        }
         umsMemberMapper.updateById(umsMember);
         return ResultWrapper.getSuccessBuilder().data(umsMember).build();
     }
