@@ -5,8 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="93c40910-0048-4f07-aa29-4819554b5224" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/src/main/java/com/msb/dongbao/portal/web/controller/HappyCaptchaController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/src/main/java/com/msb/dongbao/portal/web/controller/JCaptchaController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/src/main/java/com/msb/dongbao/portal/web/util/JCaptchaUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/src/main/java/com/msb/dongbao/portal/web/controller/VerifyCodeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/src/main/java/com/msb/dongbao/portal/web/controller/VerifyCodeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/src/main/java/com/msb/dongbao/portal/web/code/ImageCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/src/main/java/com/msb/dongbao/portal/web/code/ImageCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/src/main/java/com/msb/dongbao/portal/web/interceptor/InterceptorConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/src/main/java/com/msb/dongbao/portal/web/interceptor/InterceptorConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/target/classes/com/msb/dongbao/portal/web/code/ImageCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/target/classes/com/msb/dongbao/portal/web/code/ImageCode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/target/classes/com/msb/dongbao/portal/web/interceptor/InterceptorConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/target/classes/com/msb/dongbao/portal/web/interceptor/InterceptorConfig.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +69,7 @@
       <recent name="com.msb.dongbao.ums" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.msb.dongbao.portal.web.controller" />
       <recent name="com.msb.dongbao.ums.entity.dto" />
     </key>
   </component>
@@ -175,7 +183,7 @@
       <updated>1646727378730</updated>
       <workItem from="1646727380432" duration="5230000" />
       <workItem from="1646813747541" duration="6835000" />
-      <workItem from="1646890491431" duration="77610000" />
+      <workItem from="1646890491431" duration="83197000" />
     </task>
     <task id="LOCAL-00001" summary="mybatis-plus代码生成器生成代码">
       <created>1646894976148</created>
@@ -254,7 +262,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647153589290</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="图片转base64">
+      <created>1647154810629</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1647154810630</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -282,6 +297,7 @@
     <MESSAGE value="拦截器实现，编辑密码功能完善" />
     <MESSAGE value="拦截器生效，自定义异常封装" />
     <MESSAGE value="验证码生成与验证，破解test" />
-    <option name="LAST_COMMIT_MESSAGE" value="验证码生成与验证，破解test" />
+    <MESSAGE value="图片转base64" />
+    <option name="LAST_COMMIT_MESSAGE" value="图片转base64" />
   </component>
 </project>

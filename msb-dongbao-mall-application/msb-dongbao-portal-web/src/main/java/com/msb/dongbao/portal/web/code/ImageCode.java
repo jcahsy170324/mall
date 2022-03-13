@@ -43,22 +43,26 @@ public class ImageCode {
         graphics.setFont(new Font("宋体", Font.PLAIN, 30));
         this.code = "";
         Random random = new Random();
-        for (int i = 0; i < 6; i++) {
-            String s = String.valueOf(random.nextInt(10));
-            this.code += s;
-            graphics.setColor(new Color(0, 0, 0));
-            graphics.drawString(s, (width / 6) * i, 40);
+
+        int num1 = random.nextInt(30);
+        int num2 = random.nextInt(30);
+        graphics.setColor(new Color(0, 0, 0));
+        graphics.drawString(num1 + "", (width / 6) * 0 + 20, 50);
+        graphics.drawString("+", (width / 6) * 1 + 20, 50);
+        graphics.drawString(num2 + "", (width / 6) * 2 + 20, 50);
+        graphics.drawString("=", (width / 6) * 3 + 20, 50);
+        graphics.drawString("?", (width / 6) * 4 + 20, 50);
+        int result = num1 + num2;
+        this.code = result + "";
 
 
-        }
-
-        graphics.setColor(new Color(100,100,100));
+        graphics.setColor(new Color(100, 100, 100));
         for (int i = 0; i < 100; i++) {
             int x = random.nextInt(width);
             int y = random.nextInt(height);
             int x1 = random.nextInt(20);
             int y1 = random.nextInt(20);
-            graphics.drawLine(x,y,x+x1,y+y1);
+            graphics.drawLine(x, y, x + x1, y + y1);
         }
 
 
