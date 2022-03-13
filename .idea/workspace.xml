@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="93c40910-0048-4f07-aa29-4819554b5224" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/src/main/java/com/msb/dongbao/portal/web/code/ImageCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/src/main/java/com/msb/dongbao/portal/web/controller/VerifyCodeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/src/test/java/com/msb/dongbao/portal/web/verifycode/TesseractTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/src/main/java/com/msb/dongbao/portal/web/interceptor/InterceptorConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/src/main/java/com/msb/dongbao/portal/web/interceptor/InterceptorConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/src/main/java/com/msb/dongbao/portal/web/controller/VerifyCodeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/src/main/java/com/msb/dongbao/portal/web/controller/VerifyCodeController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +65,7 @@
       <recent name="com.msb.dongbao.ums.entity.dto" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TesseractTest">
+  <component name="RunManager" selected="Spring Boot.MsbDongbaoPortalWebApplication">
     <configuration name="JwtUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.msb.dongbao.common.util.JwtUtil" />
       <module name="msb-dongbao-common-util" />
@@ -161,8 +157,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TesseractTest" />
         <item itemvalue="Spring Boot.MsbDongbaoPortalWebApplication" />
+        <item itemvalue="Application.TesseractTest" />
         <item itemvalue="Application.JwtUtil" />
         <item itemvalue="JUnit.EncoderOrDecoderTest.bcrypt" />
         <item itemvalue="JUnit.EncoderOrDecoderTest.encodeAndDecode" />
@@ -179,7 +175,7 @@
       <updated>1646727378730</updated>
       <workItem from="1646727380432" duration="5230000" />
       <workItem from="1646813747541" duration="6835000" />
-      <workItem from="1646890491431" duration="76522000" />
+      <workItem from="1646890491431" duration="77610000" />
     </task>
     <task id="LOCAL-00001" summary="mybatis-plus代码生成器生成代码">
       <created>1646894976148</created>
@@ -251,7 +247,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647089828361</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="验证码生成与验证，破解test">
+      <created>1647153589290</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1647153589290</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -278,6 +281,7 @@
     <MESSAGE value="jwt实现token登录功能，ResultWrapper完善到service层,用户信息编辑功能实现" />
     <MESSAGE value="拦截器实现，编辑密码功能完善" />
     <MESSAGE value="拦截器生效，自定义异常封装" />
-    <option name="LAST_COMMIT_MESSAGE" value="拦截器生效，自定义异常封装" />
+    <MESSAGE value="验证码生成与验证，破解test" />
+    <option name="LAST_COMMIT_MESSAGE" value="验证码生成与验证，破解test" />
   </component>
 </project>

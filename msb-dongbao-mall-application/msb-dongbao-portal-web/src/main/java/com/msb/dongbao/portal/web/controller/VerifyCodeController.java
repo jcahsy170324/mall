@@ -10,7 +10,9 @@ import javax.servlet.ServletOutputStream;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.ByteArrayInputStream;
+import java.io.ByteArrayOutputStream;
 import java.io.IOException;
+import java.util.Base64;
 
 /**
  * @ClassName VerifyCodeController
@@ -27,36 +29,64 @@ public class VerifyCodeController {
 
     @GetMapping("/generator")
     @TokenCheck(required = false)
-    public void generatorCode(HttpServletRequest request,HttpServletResponse response){
+    public void generatorCode(HttpServletRequest request, HttpServletResponse response) {
         try {
             ImageCode imageCode = ImageCode.getInstance();
             //验证码的值
             String code = imageCode.getCode();
-            request.getSession().setAttribute(attrName,code);
+            request.getSession().setAttribute(attrName, code);
             //验证码图片
             ByteArrayInputStream image = imageCode.getImage();
             response.setContentType("image/jpeg");
             byte[] bytes = new byte[1024];
             try {
                 ServletOutputStream out = response.getOutputStream();
-                while (image.read(bytes) != -1){
+                while (image.read(bytes) != -1) {
                     out.write(bytes);
                 }
-            }catch (IOException e) {
+            } catch (IOException e) {
 
             }
-        }catch (Exception e) {
+        } catch (Exception e) {
             System.out.println("异常");
         }
     }
 
     @GetMapping("/verify")
     @TokenCheck(required = false)
-    public String verify(String verifyCode, HttpServletRequest request){
+    public String verify(String verifyCode, HttpServletRequest request) {
         String s = request.getSession().getAttribute(attrName).toString();
-        if (verifyCode.equals(s)){
+        if (verifyCode.equals(s)) {
             return "校验码校验通过";
         }
         return "验证码校验不通过";
+    }
+
+
+    @GetMapping("/generator-base64")
+    @TokenCheck(required = false)
+    public String generatorCodeBase64(HttpServletRequest request, HttpServletResponse response) {
+        try {
+            ImageCode imageCode = ImageCode.getInstance();
+            //验证码的值
+            String code = imageCode.getCode();
+            request.getSession().setAttribute(attrName, code);
+            //验证码图片
+            ByteArrayInputStream image = imageCode.getImage();
+
+            ByteArrayOutputStream swapStream = new ByteArrayOutputStream();
+            byte[] buff = new byte[1024];
+            int r= 0;
+            while ((r=image.read(buff,0,1024)) > 0){
+                swapStream.write(buff, 0, r);
+            }
+
+            byte[] data = swapStream.toByteArray();
+            return Base64.getEncoder().encodeToString(data);
+
+        } catch (Exception e) {
+            System.out.println("异常");
+            return "";
+        }
     }
 }
