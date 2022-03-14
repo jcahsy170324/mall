@@ -34,11 +34,11 @@ public class EasyCaptchaController {
 
     @GetMapping("/verify-redis")
     @TokenCheck(required = false)
-    public String verifyRedis(String verifyCode, HttpServletRequest request) {
-        String id = request.getSession().getId();
-        String s = stringRedisTemplate.opsForValue().get(id);
+    public String verifyRedis(Map<String,String> map, HttpServletRequest request) {
+        String uuid = map.get("uuid");
+        String s = stringRedisTemplate.opsForValue().get(uuid);
 
-        if (verifyCode.equals(s)) {
+        if (map.get("base64").equals(s)) {
             HappyCaptcha.remove(request);
             return "通过";
         }
