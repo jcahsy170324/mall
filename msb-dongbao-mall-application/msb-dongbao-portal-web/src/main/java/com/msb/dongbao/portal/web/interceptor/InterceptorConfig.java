@@ -16,11 +16,15 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 public class InterceptorConfig implements WebMvcConfigurer {
     @Override
     public void addInterceptors(InterceptorRegistry registry) {
-        registry.addInterceptor(authInterceptor())
-                .addPathPatterns("/**").excludePathPatterns("/user-member/login")
-            .excludePathPatterns("/user-member/register")
-            .excludePathPatterns("/code/**").excludePathPatterns("/jcaptcha/**")
-            .excludePathPatterns("/happy-captcha/**");
+//        registry.addInterceptor(authInterceptor())
+//                .addPathPatterns("/**")
+//                .excludePathPatterns("/user-member/login")
+//                .excludePathPatterns("/user-member/register")
+//                .excludePathPatterns("/code/**")
+//                .excludePathPatterns("/jcaptcha/**")
+//                .excludePathPatterns("/happy-captcha/**")
+//                .excludePathPatterns("/easy-captcha/**");
+
     }
 
     @Bean
