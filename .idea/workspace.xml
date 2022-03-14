@@ -5,17 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="93c40910-0048-4f07-aa29-4819554b5224" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/src/main/java/com/msb/dongbao/portal/web/controller/KcaptchaController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/src/main/java/com/msb/dongbao/portal/web/custom/MyGoogleKaptcha.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/src/main/java/com/msb/dongbao/portal/web/controller/MySliderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/src/main/java/com/msb/dongbao/portal/web/util/SliderUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/src/main/java/com/msb/dongbao/portal/web/util/VerificationVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/src/main/java/com/msb/dongbao/portal/web/util/VerifyImageUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/src/main/java/com/msb/dongbao/portal/web/advice/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/src/main/java/com/msb/dongbao/portal/web/advice/GlobalExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/src/main/java/com/msb/dongbao/portal/web/controller/EasyCaptchaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/src/main/java/com/msb/dongbao/portal/web/controller/EasyCaptchaController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/target/classes/com/msb/dongbao/portal/web/advice/GlobalExceptionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/target/classes/com/msb/dongbao/portal/web/advice/GlobalExceptionHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/target/classes/com/msb/dongbao/portal/web/controller/EasyCaptchaController.class" beforeDir="false" afterPath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/target/classes/com/msb/dongbao/portal/web/controller/EasyCaptchaController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-common/msb-dongbao-common-util/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/msb-dongbao-mall-common/msb-dongbao-common-util/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +35,7 @@
     <setting file="file://$PROJECT_DIR$/msb-dongbao-mall-api/msb-dongbao-ums-api/pom.xml" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/msb-dongbao-mall-common/msb-dongbao-common-base/pom.xml" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/msb-dongbao-mall-service/msb-dongbao-ums/pom.xml" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/src/main/java/com/msb/dongbao/portal/web/custom/MyGoogleKaptcha.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/msb-dongbao-mall-common/pom.xml" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/msb-dongbao-mall-service/msb-dongbao-ums/src/test/java/com/msb/dongbao/ums/mapper/UserMemberTest.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/msb-dongbao-generator/pom.xml" root0="SKIP_INSPECTION" />
@@ -66,6 +62,9 @@
     <property name="project.structure.side.proportion" value="0.39310345" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -191,7 +190,7 @@
       <workItem from="1646890491431" duration="85628000" />
       <workItem from="1647210829701" duration="34000" />
       <workItem from="1647240163728" duration="1370000" />
-      <workItem from="1647242996328" duration="9749000" />
+      <workItem from="1647242996328" duration="11937000" />
     </task>
     <task id="LOCAL-00001" summary="mybatis-plus代码生成器生成代码">
       <created>1646894976148</created>
@@ -298,7 +297,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647246759262</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Kcaptcha">
+      <created>1647256068254</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1647256068254</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -331,6 +337,23 @@
     <MESSAGE value="easy-captcha reids" />
     <MESSAGE value="easy-captcha redis" />
     <MESSAGE value="配置文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="配置文件" />
+    <MESSAGE value="Kcaptcha" />
+    <option name="LAST_COMMIT_MESSAGE" value="Kcaptcha" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/src/main/java/com/msb/dongbao/portal/web/util/SliderUtil.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/src/main/java/com/msb/dongbao/portal/web/util/VerifyImageUtils.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
