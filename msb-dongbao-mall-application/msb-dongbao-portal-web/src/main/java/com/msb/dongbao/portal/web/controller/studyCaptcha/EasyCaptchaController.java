@@ -1,4 +1,4 @@
-package com.msb.dongbao.portal.web.controller;
+package com.msb.dongbao.portal.web.controller.studyCaptcha;
 
 import com.msb.dongbao.common.base.annotations.TokenCheck;
 import com.ramostear.captcha.HappyCaptcha;

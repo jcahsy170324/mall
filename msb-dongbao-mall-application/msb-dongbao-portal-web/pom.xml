@@ -6,13 +6,16 @@
         <artifactId>msb-dongbao-mall-application</artifactId>
         <groupId>com.msb</groupId>
         <version>1.0-SNAPSHOT</version>
-        <relativePath>../pom.xml</relativePath>
     </parent>
     <modelVersion>4.0.0</modelVersion>
+    <packaging>jar</packaging>
 
     <artifactId>msb-dongbao-portal-web</artifactId>
     <version>1.0-SNAPSHOT</version>
     <groupId>com.msb</groupId>
+
+    <name>msb-dongbao-portal-web</name>
+    <description>咚宝商城门户网站应用</description>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
@@ -23,11 +26,6 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter</artifactId>
         </dependency>
 
         <dependency>
@@ -101,12 +99,7 @@
         <dependency>
             <groupId>cn.hutool</groupId>
             <artifactId>hutool-all</artifactId>
-            <version>5.7.20</version>
         </dependency>
-
-
-
-
     </dependencies>
 
 </project>

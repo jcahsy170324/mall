@@ -14,14 +14,14 @@ import java.util.Date;
  * @Date 2022/3/10 14:08
  * @Version 1.0
  **/
-@SpringBootTest
+@SpringBootTest(classes = com.msb.dongbao.ums.MsbDongbaoUmsApplication.class)
 public class UserMemberTest {
     @Autowired
     UmsMemberMapper umsMemberMapper;
     @Test
     void testInsert(){
         UmsMember t = new UmsMember();
-        t.setUsername("test");
+        t.setUsername("test7727");
         t.setStatus(0);
         t.setPassword("1");
         t.setNote("note");

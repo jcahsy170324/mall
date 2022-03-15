@@ -5,12 +5,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="93c40910-0048-4f07-aa29-4819554b5224" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/src/main/java/com/msb/dongbao/portal/web/controller/MySliderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/src/main/java/com/msb/dongbao/portal/web/util/SliderUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/src/main/java/com/msb/dongbao/portal/web/util/VerificationVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/src/main/java/com/msb/dongbao/portal/web/util/VerifyImageUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-api/msb-dongbao-ums-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/msb-dongbao-mall-api/msb-dongbao-ums-api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/msb-dongbao-mall-api/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/src/main/java/com/msb/dongbao/portal/web/controller/EasyCaptchaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/src/main/java/com/msb/dongbao/portal/web/controller/studyCaptcha/EasyCaptchaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/src/main/java/com/msb/dongbao/portal/web/controller/HappyCaptchaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/src/main/java/com/msb/dongbao/portal/web/controller/studyCaptcha/HappyCaptchaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/src/main/java/com/msb/dongbao/portal/web/controller/JCaptchaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/src/main/java/com/msb/dongbao/portal/web/controller/studyCaptcha/JCaptchaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/src/main/java/com/msb/dongbao/portal/web/controller/KcaptchaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/src/main/java/com/msb/dongbao/portal/web/controller/studyCaptcha/KcaptchaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/src/main/java/com/msb/dongbao/portal/web/controller/MySliderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/src/main/java/com/msb/dongbao/portal/web/controller/studyCaptcha/MySliderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/src/main/java/com/msb/dongbao/portal/web/controller/UserMemberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/src/main/java/com/msb/dongbao/portal/web/controller/studyCaptcha/UserMemberController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/src/main/java/com/msb/dongbao/portal/web/controller/VerifyCodeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/src/main/java/com/msb/dongbao/portal/web/controller/studyCaptcha/VerifyCodeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/target/classes/com/msb/dongbao/portal/web/controller/EasyCaptchaController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/target/classes/com/msb/dongbao/portal/web/controller/HappyCaptchaController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/target/classes/com/msb/dongbao/portal/web/controller/JCaptchaController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/target/classes/com/msb/dongbao/portal/web/controller/KcaptchaController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/target/classes/com/msb/dongbao/portal/web/controller/UserMemberController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/target/classes/com/msb/dongbao/portal/web/controller/VerifyCodeController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-application/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/msb-dongbao-mall-application/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-common/msb-dongbao-common-base/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/msb-dongbao-mall-common/msb-dongbao-common-base/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-common/msb-dongbao-common-util/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/msb-dongbao-mall-common/msb-dongbao-common-util/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-common/msb-dongbao-common-util/target/classes/com/msb/dongbao/common/util/JwtUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/msb-dongbao-mall-common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-service/msb-dongbao-ums/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/msb-dongbao-mall-service/msb-dongbao-ums/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-service/msb-dongbao-ums/src/test/java/com/msb/dongbao/ums/mapper/UserMemberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/msb-dongbao-mall-service/msb-dongbao-ums/src/test/java/com/msb/dongbao/ums/mapper/UserMemberTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-service/msb-dongbao-ums/target/test-classes/com/msb/dongbao/ums/mapper/UserMemberTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/msb-dongbao-mall-service/msb-dongbao-ums/target/test-classes/com/msb/dongbao/ums/mapper/UserMemberTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/msb-dongbao-mall-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,46 +124,43 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EncoderOrDecoderTest.bcrypt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="msb-dongbao-portal-web" />
+    <configuration name="UserMemberTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="msb-dongbao-ums" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.msb.dongbao.portal.web.md5.*" />
+          <option name="PATTERN" value="com.msb.dongbao.ums.mapper.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.msb.dongbao.portal.web.md5" />
-      <option name="MAIN_CLASS_NAME" value="com.msb.dongbao.portal.web.md5.EncoderOrDecoderTest" />
-      <option name="METHOD_NAME" value="bcrypt" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="com.msb.dongbao.ums.mapper" />
+      <option name="MAIN_CLASS_NAME" value="com.msb.dongbao.ums.mapper.UserMemberTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EncoderOrDecoderTest.encodeAndDecode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="msb-dongbao-portal-web" />
+    <configuration name="UserMemberTest.testInsert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="msb-dongbao-ums" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.msb.dongbao.portal.web.md5.*" />
+          <option name="PATTERN" value="com.msb.dongbao.ums.mapper.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.msb.dongbao.portal.web.md5" />
-      <option name="MAIN_CLASS_NAME" value="com.msb.dongbao.portal.web.md5.EncoderOrDecoderTest" />
-      <option name="METHOD_NAME" value="encodeAndDecode" />
+      <option name="PACKAGE_NAME" value="com.msb.dongbao.ums.mapper" />
+      <option name="MAIN_CLASS_NAME" value="com.msb.dongbao.ums.mapper.UserMemberTest" />
+      <option name="METHOD_NAME" value="testInsert" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -170,10 +189,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.MsbDongbaoPortalWebApplication" />
+        <item itemvalue="JUnit.UserMemberTest" />
+        <item itemvalue="JUnit.UserMemberTest.testInsert" />
         <item itemvalue="Application.TesseractTest" />
         <item itemvalue="Application.JwtUtil" />
-        <item itemvalue="JUnit.EncoderOrDecoderTest.bcrypt" />
-        <item itemvalue="JUnit.EncoderOrDecoderTest.encodeAndDecode" />
       </list>
     </recent_temporary>
   </component>
@@ -190,7 +209,9 @@
       <workItem from="1646890491431" duration="85628000" />
       <workItem from="1647210829701" duration="34000" />
       <workItem from="1647240163728" duration="1370000" />
-      <workItem from="1647242996328" duration="11937000" />
+      <workItem from="1647242996328" duration="17873000" />
+      <workItem from="1647305845570" duration="189000" />
+      <workItem from="1647323097835" duration="9198000" />
     </task>
     <task id="LOCAL-00001" summary="mybatis-plus代码生成器生成代码">
       <created>1646894976148</created>
@@ -304,7 +325,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647256068254</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="滑块验证">
+      <created>1647260241657</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1647260241657</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -338,7 +366,8 @@
     <MESSAGE value="easy-captcha redis" />
     <MESSAGE value="配置文件" />
     <MESSAGE value="Kcaptcha" />
-    <option name="LAST_COMMIT_MESSAGE" value="Kcaptcha" />
+    <MESSAGE value="滑块验证" />
+    <option name="LAST_COMMIT_MESSAGE" value="滑块验证" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

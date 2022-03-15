@@ -11,6 +11,8 @@
 
     <artifactId>msb-dongbao-mall-application</artifactId>
     <packaging>pom</packaging>
+    <name>msb-dongbao-mall-application</name>
+    <description>应用服务层父pom</description>
     <modules>
         <module>msb-dongbao-manager-web</module>
         <module>msb-dongbao-portal-web</module>

@@ -22,9 +22,29 @@
         <module>msb-dongbao-ums-api</module>
     </modules>
 
+    <name>msb-dongbao-mall-api</name>
+    <description>业务API抽象层</description>
+
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
     </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.msb</groupId>
+            <artifactId>msb-dongbao-common-base</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus-boot-starter</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.tomcat.embed</groupId>
+            <artifactId>tomcat-embed-core</artifactId>
+            <scope>compile</scope>
+        </dependency>
+    </dependencies>
 
 </project>

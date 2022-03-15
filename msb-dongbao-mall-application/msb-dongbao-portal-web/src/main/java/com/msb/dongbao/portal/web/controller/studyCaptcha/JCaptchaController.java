@@ -1,7 +1,6 @@
-package com.msb.dongbao.portal.web.controller;
+package com.msb.dongbao.portal.web.controller.studyCaptcha;
 
 import com.msb.dongbao.common.base.annotations.TokenCheck;
-import com.msb.dongbao.portal.web.code.ImageCode;
 import com.msb.dongbao.portal.web.util.JCaptchaUtil;
 import com.sun.image.codec.jpeg.JPEGCodec;
 import com.sun.image.codec.jpeg.JPEGImageEncoder;
@@ -13,10 +12,7 @@ import javax.servlet.ServletOutputStream;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.awt.image.BufferedImage;
-import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
-import java.io.IOException;
-import java.util.Base64;
 
 /**
  * @ClassName VerifyCodeController

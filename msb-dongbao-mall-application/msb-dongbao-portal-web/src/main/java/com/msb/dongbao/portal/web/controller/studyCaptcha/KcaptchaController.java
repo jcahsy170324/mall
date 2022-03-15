@@ -1,12 +1,9 @@
-package com.msb.dongbao.portal.web.controller;
+package com.msb.dongbao.portal.web.controller.studyCaptcha;
 
 import com.baomidou.kaptcha.Kaptcha;
 import com.msb.dongbao.common.base.annotations.TokenCheck;
 import com.msb.dongbao.portal.web.custom.MyGoogleKaptcha;
-import com.ramostear.captcha.HappyCaptcha;
-import com.wf.captcha.utils.CaptchaUtil;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

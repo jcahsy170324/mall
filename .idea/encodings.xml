@@ -14,12 +14,8 @@
     <file url="file://$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-manager-web/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-manager-web/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/msb-dongbao-mall-application/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/msb-dongbao-mall-application/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/msb-dongbao-mall-common/msb-dongbao-common-base/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/msb-dongbao-mall-common/msb-dongbao-common-util/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/msb-dongbao-mall-common/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/msb-dongbao-mall-common/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/msb-dongbao-mall-service/msb-dongbao-cart/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/msb-dongbao-mall-service/msb-dongbao-cms/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/msb-dongbao-mall-service/msb-dongbao-dictionary/src/main/java" charset="UTF-8" />
@@ -28,7 +24,5 @@
     <file url="file://$PROJECT_DIR$/msb-dongbao-mall-service/msb-dongbao-pms/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/msb-dongbao-mall-service/msb-dongbao-sms/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/msb-dongbao-mall-service/msb-dongbao-ums/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/msb-dongbao-mall-service/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/msb-dongbao-mall-service/src/main/resources" charset="UTF-8" />
   </component>
 </project>
