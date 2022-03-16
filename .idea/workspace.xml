@@ -5,33 +5,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="93c40910-0048-4f07-aa29-4819554b5224" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/src/main/java/com/msb/dongbao/portal/web/controller/api/ApiSafeController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msb-dongbao-generator/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/msb-dongbao-generator/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-api/msb-dongbao-ums-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/msb-dongbao-mall-api/msb-dongbao-ums-api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-api/msb-dongbao-ums-api/target/classes/com/msb/dongbao/ums/entity/UmsMember.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-api/msb-dongbao-ums-api/target/classes/com/msb/dongbao/ums/entity/UserMemberLoginResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-api/msb-dongbao-ums-api/target/classes/com/msb/dongbao/ums/entity/dto/UmsMemberLoginParamDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-api/msb-dongbao-ums-api/target/classes/com/msb/dongbao/ums/entity/dto/UmsMemberRegisterParamDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-api/msb-dongbao-ums-api/target/classes/com/msb/dongbao/ums/service/UmsMemberService.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/msb-dongbao-mall-api/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/src/main/java/com/msb/dongbao/portal/web/controller/EasyCaptchaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/src/main/java/com/msb/dongbao/portal/web/controller/studyCaptcha/EasyCaptchaController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/src/main/java/com/msb/dongbao/portal/web/controller/HappyCaptchaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/src/main/java/com/msb/dongbao/portal/web/controller/studyCaptcha/HappyCaptchaController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/src/main/java/com/msb/dongbao/portal/web/controller/JCaptchaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/src/main/java/com/msb/dongbao/portal/web/controller/studyCaptcha/JCaptchaController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/src/main/java/com/msb/dongbao/portal/web/controller/KcaptchaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/src/main/java/com/msb/dongbao/portal/web/controller/studyCaptcha/KcaptchaController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/src/main/java/com/msb/dongbao/portal/web/controller/MySliderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/src/main/java/com/msb/dongbao/portal/web/controller/studyCaptcha/MySliderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/src/main/java/com/msb/dongbao/portal/web/controller/UserMemberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/src/main/java/com/msb/dongbao/portal/web/controller/studyCaptcha/UserMemberController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/src/main/java/com/msb/dongbao/portal/web/controller/VerifyCodeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/src/main/java/com/msb/dongbao/portal/web/controller/studyCaptcha/VerifyCodeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/target/classes/com/msb/dongbao/portal/web/controller/EasyCaptchaController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/target/classes/com/msb/dongbao/portal/web/controller/HappyCaptchaController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/target/classes/com/msb/dongbao/portal/web/controller/JCaptchaController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/target/classes/com/msb/dongbao/portal/web/controller/KcaptchaController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/target/classes/com/msb/dongbao/portal/web/controller/UserMemberController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/target/classes/com/msb/dongbao/portal/web/controller/VerifyCodeController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-application/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/msb-dongbao-mall-application/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/target/classes/com/msb/dongbao/portal/web/MsbDongbaoPortalWebApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/target/classes/com/msb/dongbao/portal/web/advice/GlobalExceptionHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/target/classes/com/msb/dongbao/portal/web/advice/ValidateHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/target/classes/com/msb/dongbao/portal/web/code/ImageCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/target/classes/com/msb/dongbao/portal/web/interceptor/AuthInterceptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/target/classes/com/msb/dongbao/portal/web/interceptor/InterceptorConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/target/classes/com/msb/dongbao/portal/web/util/JCaptchaUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/target/test-classes/com/msb/dongbao/portal/web/md5/EncoderOrDecoderTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/target/test-classes/com/msb/dongbao/portal/web/verifycode/TesseractTest.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-common/msb-dongbao-common-base/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/msb-dongbao-mall-common/msb-dongbao-common-base/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-common/msb-dongbao-common-base/src/main/java/com/msb/dongbao/common/base/MsbDongbaoCommonBaseApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-common/msb-dongbao-common-base/target/classes/com/msb/dongbao/common/base/MsbDongbaoCommonBaseApplication.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-common/msb-dongbao-common-util/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/msb-dongbao-mall-common/msb-dongbao-common-util/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-common/msb-dongbao-common-util/target/classes/com/msb/dongbao/common/util/JwtUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/msb-dongbao-mall-common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-service/msb-dongbao-ums/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/msb-dongbao-mall-service/msb-dongbao-ums/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-service/msb-dongbao-ums/src/test/java/com/msb/dongbao/ums/mapper/UserMemberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/msb-dongbao-mall-service/msb-dongbao-ums/src/test/java/com/msb/dongbao/ums/mapper/UserMemberTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-service/msb-dongbao-ums/target/test-classes/com/msb/dongbao/ums/mapper/UserMemberTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/msb-dongbao-mall-service/msb-dongbao-ums/target/test-classes/com/msb/dongbao/ums/mapper/UserMemberTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/msb-dongbao-mall-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-service/msb-dongbao-ums/target/classes/com/msb/dongbao/ums/MsbDongbaoUmsApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-service/msb-dongbao-ums/target/classes/com/msb/dongbao/ums/config/MyHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-service/msb-dongbao-ums/target/classes/com/msb/dongbao/ums/mapper/UmsMemberMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-service/msb-dongbao-ums/target/classes/com/msb/dongbao/ums/service/impl/UmsMemberServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-service/msb-dongbao-ums/target/test-classes/com/msb/dongbao/ums/mapper/UserMemberTest.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,8 +61,10 @@
     <setting file="file://$PROJECT_DIR$/msb-dongbao-mall-service/msb-dongbao-ums/pom.xml" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/src/main/java/com/msb/dongbao/portal/web/custom/MyGoogleKaptcha.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/msb-dongbao-mall-common/pom.xml" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/pom.xml" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/msb-dongbao-mall-service/msb-dongbao-ums/src/test/java/com/msb/dongbao/ums/mapper/UserMemberTest.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/msb-dongbao-generator/pom.xml" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/msb-dongbao-mall-api/pom.xml" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProjectId" id="265xgWizbQuPpEVJpAUL2ii3NMP" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -82,7 +86,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.39310345" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="ReactorSettings">
@@ -211,7 +215,9 @@
       <workItem from="1647240163728" duration="1370000" />
       <workItem from="1647242996328" duration="17873000" />
       <workItem from="1647305845570" duration="189000" />
-      <workItem from="1647323097835" duration="9198000" />
+      <workItem from="1647323097835" duration="13798000" />
+      <workItem from="1647391381693" duration="1221000" />
+      <workItem from="1647430804701" duration="2721000" />
     </task>
     <task id="LOCAL-00001" summary="mybatis-plus代码生成器生成代码">
       <created>1646894976148</created>
@@ -332,7 +338,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647260241657</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="pom依赖整理">
+      <created>1647332424748</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1647332424748</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -367,7 +380,8 @@
     <MESSAGE value="配置文件" />
     <MESSAGE value="Kcaptcha" />
     <MESSAGE value="滑块验证" />
-    <option name="LAST_COMMIT_MESSAGE" value="滑块验证" />
+    <MESSAGE value="pom依赖整理" />
+    <option name="LAST_COMMIT_MESSAGE" value="pom依赖整理" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
