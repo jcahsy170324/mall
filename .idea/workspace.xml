@@ -5,36 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="93c40910-0048-4f07-aa29-4819554b5224" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/src/main/java/com/msb/dongbao/portal/web/controller/api/ApiSafeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/src/main/java/com/msb/dongbao/portal/web/controller/api/CheckUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msb-dongbao-mall-common/msb-dongbao-common-util/src/main/java/com/msb/dongbao/common/util/MD5Util.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msb-dongbao-generator/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/msb-dongbao-generator/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-api/msb-dongbao-ums-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/msb-dongbao-mall-api/msb-dongbao-ums-api/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-api/msb-dongbao-ums-api/target/classes/com/msb/dongbao/ums/entity/UmsMember.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-api/msb-dongbao-ums-api/target/classes/com/msb/dongbao/ums/entity/UserMemberLoginResponse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-api/msb-dongbao-ums-api/target/classes/com/msb/dongbao/ums/entity/dto/UmsMemberLoginParamDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-api/msb-dongbao-ums-api/target/classes/com/msb/dongbao/ums/entity/dto/UmsMemberRegisterParamDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-api/msb-dongbao-ums-api/target/classes/com/msb/dongbao/ums/service/UmsMemberService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/msb-dongbao-mall-api/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/target/classes/com/msb/dongbao/portal/web/MsbDongbaoPortalWebApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/target/classes/com/msb/dongbao/portal/web/advice/GlobalExceptionHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/target/classes/com/msb/dongbao/portal/web/advice/ValidateHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/target/classes/com/msb/dongbao/portal/web/code/ImageCode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/target/classes/com/msb/dongbao/portal/web/interceptor/AuthInterceptor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/target/classes/com/msb/dongbao/portal/web/interceptor/InterceptorConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/target/classes/com/msb/dongbao/portal/web/util/JCaptchaUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/target/test-classes/com/msb/dongbao/portal/web/md5/EncoderOrDecoderTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/target/test-classes/com/msb/dongbao/portal/web/verifycode/TesseractTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-common/msb-dongbao-common-base/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/msb-dongbao-mall-common/msb-dongbao-common-base/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-common/msb-dongbao-common-base/src/main/java/com/msb/dongbao/common/base/MsbDongbaoCommonBaseApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-common/msb-dongbao-common-base/target/classes/com/msb/dongbao/common/base/MsbDongbaoCommonBaseApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-common/msb-dongbao-common-util/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/msb-dongbao-mall-common/msb-dongbao-common-util/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-service/msb-dongbao-ums/target/classes/com/msb/dongbao/ums/MsbDongbaoUmsApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-service/msb-dongbao-ums/target/classes/com/msb/dongbao/ums/config/MyHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-service/msb-dongbao-ums/target/classes/com/msb/dongbao/ums/mapper/UmsMemberMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-service/msb-dongbao-ums/target/classes/com/msb/dongbao/ums/service/impl/UmsMemberServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-service/msb-dongbao-ums/target/test-classes/com/msb/dongbao/ums/mapper/UserMemberTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/src/main/java/com/msb/dongbao/portal/web/controller/api/ApiSafeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/src/main/java/com/msb/dongbao/portal/web/controller/api/ApiSafeController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +26,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/msb-dongbao-mall-service/pom.xml" root0="SKIP_INSPECTION" />
@@ -102,12 +84,12 @@
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.MsbDongbaoPortalWebApplication">
-    <configuration name="JwtUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.msb.dongbao.common.util.JwtUtil" />
-      <module name="msb-dongbao-common-util" />
+    <configuration name="CheckUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.msb.dongbao.portal.web.controller.api.CheckUtils" />
+      <module name="msb-dongbao-portal-web" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.msb.dongbao.common.util.*" />
+          <option name="PATTERN" value="com.msb.dongbao.portal.web.controller.api.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,13 +110,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -193,10 +177,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.MsbDongbaoPortalWebApplication" />
+        <item itemvalue="Application.CheckUtils" />
         <item itemvalue="JUnit.UserMemberTest" />
         <item itemvalue="JUnit.UserMemberTest.testInsert" />
         <item itemvalue="Application.TesseractTest" />
-        <item itemvalue="Application.JwtUtil" />
       </list>
     </recent_temporary>
   </component>
@@ -217,7 +201,8 @@
       <workItem from="1647305845570" duration="189000" />
       <workItem from="1647323097835" duration="13798000" />
       <workItem from="1647391381693" duration="1221000" />
-      <workItem from="1647430804701" duration="2721000" />
+      <workItem from="1647430804701" duration="4474000" />
+      <workItem from="1647436432867" duration="1865000" />
     </task>
     <task id="LOCAL-00001" summary="mybatis-plus代码生成器生成代码">
       <created>1646894976148</created>
@@ -345,7 +330,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647332424748</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="包依赖冲突解决">
+      <created>1647433628093</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1647433628093</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -381,7 +373,8 @@
     <MESSAGE value="Kcaptcha" />
     <MESSAGE value="滑块验证" />
     <MESSAGE value="pom依赖整理" />
-    <option name="LAST_COMMIT_MESSAGE" value="pom依赖整理" />
+    <MESSAGE value="包依赖冲突解决" />
+    <option name="LAST_COMMIT_MESSAGE" value="包依赖冲突解决" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
