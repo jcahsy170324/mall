@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="93c40910-0048-4f07-aa29-4819554b5224" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/src/main/java/com/msb/dongbao/portal/web/controller/api/CheckUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/msb-dongbao-mall-common/msb-dongbao-common-util/src/main/java/com/msb/dongbao/common/util/MD5Util.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/src/main/java/com/msb/dongbao/portal/web/controller/api/posttest/SignDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msb-dongbao-mall-common/msb-dongbao-common-util/src/main/java/com/msb/dongbao/common/util/Sha256Utils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/src/main/java/com/msb/dongbao/portal/web/controller/api/ApiSafeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/src/main/java/com/msb/dongbao/portal/web/controller/api/ApiSafeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/src/main/java/com/msb/dongbao/portal/web/controller/api/CheckUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/src/main/java/com/msb/dongbao/portal/web/controller/api/CheckUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,15 +112,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -202,7 +202,8 @@
       <workItem from="1647323097835" duration="13798000" />
       <workItem from="1647391381693" duration="1221000" />
       <workItem from="1647430804701" duration="4474000" />
-      <workItem from="1647436432867" duration="1865000" />
+      <workItem from="1647436432867" duration="2919000" />
+      <workItem from="1647487739506" duration="6468000" />
     </task>
     <task id="LOCAL-00001" summary="mybatis-plus代码生成器生成代码">
       <created>1646894976148</created>
@@ -337,7 +338,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647433628093</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="参数防篡改">
+      <created>1647469927837</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1647469927837</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -374,7 +382,8 @@
     <MESSAGE value="滑块验证" />
     <MESSAGE value="pom依赖整理" />
     <MESSAGE value="包依赖冲突解决" />
-    <option name="LAST_COMMIT_MESSAGE" value="包依赖冲突解决" />
+    <MESSAGE value="参数防篡改" />
+    <option name="LAST_COMMIT_MESSAGE" value="参数防篡改" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

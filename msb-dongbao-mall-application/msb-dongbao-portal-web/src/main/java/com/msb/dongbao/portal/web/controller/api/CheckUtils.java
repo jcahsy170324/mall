@@ -16,6 +16,7 @@ public class CheckUtils {
     public static String appSecret = "aaa";
 
     public static String generatorSign(Map<String,Object> map){
+        map.remove("sign");
         //排序
         Map<String, Object> stringObjectMap = sortMapByKey(map);
         //转格式
@@ -47,15 +48,10 @@ public class CheckUtils {
 
     public static void main(String[] args) {
         HashMap<String,Object> map = new HashMap<>();
-//        map.put("az",1);
-//        map.put("z2",2);
-//        map.put("bas",3);
-//        Map<String, Object> stringObjectMap = sortMapByKey(map);
-//        System.out.println(stringObjectMap);
         map.put("appId",1);
         map.put("name",2);
+        map.put("timeStamp",1647492363L);
         String s = generatorSign(map);
-        //a3337ee5d708e41ac38bd0d88561b95f
         System.out.println(s);
     }
 }
