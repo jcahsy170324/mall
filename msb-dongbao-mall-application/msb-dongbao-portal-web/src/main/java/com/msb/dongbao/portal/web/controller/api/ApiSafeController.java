@@ -24,7 +24,7 @@ import java.util.Map;
 public class ApiSafeController {
 
     @GetMapping("/hello")
-    public String hello(){
+    public String hello() {
         return "hello api safe";
     }
 
@@ -33,46 +33,43 @@ public class ApiSafeController {
      * @Description //测试参数防篡改
      **/
     @RequestMapping("get-test")
-    public String getTest(String appId, String name, String sign, long timeStamp, HttpServletRequest httpServletRequest){
+    public String getTest(String appId, String name, String sign, long timeStamp, HttpServletRequest httpServletRequest) {
         //参数写死
-        HashMap<String,Object> map = new HashMap<>();
+        HashMap<String, String> map = new HashMap<>();
         Enumeration<String> parameterNames = httpServletRequest.getParameterNames();
-        while (parameterNames.hasMoreElements()){
+        while (parameterNames.hasMoreElements()) {
             //获取name
             String parameterName = parameterNames.nextElement();
             //获取值
             String parameter = httpServletRequest.getParameter(parameterName);
-            map.put(parameterName,parameter);
+            map.put(parameterName, parameter);
         }
 //        long time = System.currentTimeMillis() - timeStamp;
 //        if (time > 1000*30){
 //            return "接口过期了";
 //        }
-        String s = CheckUtils.generatorSign(map);
-        System.out.println(s);
-        if (s.equals(sign)){
-            return "校验通过";
-        }else {
-            return "校验不通过";
-        }
+        boolean b = CheckUtils.checkSign(map);
+        return b == true ? "检验通过" : "检验不通过";
     }
 
     @PostMapping("/post-test")
-    public String postTest(@RequestBody SignDTO signDTO){
+    public String postTest(@RequestBody SignDTO signDTO) {
         JSONObject obj = JSONUtil.parseObj(signDTO);
-        //参数转map
-        Map<String, Object> stringObjectMap = Convert.toMap(String.class, Object.class, obj);
-        //排序
-        Map<String, Object> stringObjectMap1 = CheckUtils.sortMapByKey(stringObjectMap);
-        System.out.println(stringObjectMap1);
-        Object signClient = stringObjectMap1.get("sign");
-        //map生成签名
-        String signServer = CheckUtils.generatorSign(stringObjectMap1);
-        //判断生成签名
-        if (signClient.equals(signServer)){
-            return "校验通过";
-        }else {
-            return "校验不通过";
-        }
+        System.out.println("controller参数"+obj);
+        return "post-test";
+//        //参数转map
+//        Map<String, String> stringObjectMap = Convert.toMap(String.class, String.class, obj);
+//        //排序
+//        Map<String, String> stringObjectMap1 = CheckUtils.sortMapByKey(stringObjectMap);
+//        System.out.println(stringObjectMap1);
+//        Object signClient = stringObjectMap1.get("sign");
+//        //map生成签名
+//        String signServer = CheckUtils.generatorSign(stringObjectMap1);
+//        //判断生成签名
+//        if (signClient.equals(signServer)) {
+//            return "校验通过";
+//        } else {
+//            return "校验不通过";
+//        }
     }
 }

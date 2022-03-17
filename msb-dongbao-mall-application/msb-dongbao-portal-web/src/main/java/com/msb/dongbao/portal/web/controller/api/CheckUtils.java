@@ -15,14 +15,14 @@ public class CheckUtils {
 
     public static String appSecret = "aaa";
 
-    public static String generatorSign(Map<String,Object> map){
+    public static String generatorSign(Map<String,String> map){
         map.remove("sign");
         //排序
-        Map<String, Object> stringObjectMap = sortMapByKey(map);
+        Map<String, String> stringObjectMap = sortMapByKey(map);
         //转格式
-        Set<Map.Entry<String, Object>> entries = stringObjectMap.entrySet();
+        Set<Map.Entry<String, String>> entries = stringObjectMap.entrySet();
         StringBuilder sb = new StringBuilder();
-        for (Map.Entry<String, Object> entry : entries) {
+        for (Map.Entry<String, String> entry : entries) {
             sb.append(entry.getKey()+","+entry.getValue()).append("#");
         }
         //组装secret 参数后面添加secret
@@ -32,8 +32,20 @@ public class CheckUtils {
         return MD5Util.md5(sb.toString());
     }
 
-    public static Map<String,Object> sortMapByKey(Map<String,Object> map){
-        Map<String,Object> sortMap = new TreeMap<>(new MyMapComparator());
+    public static boolean checkSign(Map<String,String> map){
+        String sign = (String) map.get("sign");
+        map.remove("sign");
+        String s = CheckUtils.generatorSign(map);
+        System.out.println(s);
+        if (s.equals(sign)){
+            return true;
+        }else {
+            return false;
+        }
+    }
+
+    public static Map<String,String> sortMapByKey(Map<String,String> map){
+        Map<String,String> sortMap = new TreeMap<>(new MyMapComparator());
         sortMap.putAll(map);
         return sortMap;
     }
@@ -47,10 +59,11 @@ public class CheckUtils {
     }
 
     public static void main(String[] args) {
-        HashMap<String,Object> map = new HashMap<>();
-        map.put("appId",1);
-        map.put("name",2);
-        map.put("timeStamp",1647492363L);
+        HashMap<String,String> map = new HashMap<>();
+        map.put("appId","1");
+        map.put("name","2");
+        map.put("he","3");
+        //f05c92694d9a99aabeaa9969cc091373
         String s = generatorSign(map);
         System.out.println(s);
     }
